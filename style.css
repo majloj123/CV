@@ -1,0 +1,223 @@
+body {
+    margin: auto 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .main-nav a {
+        font-size: 0.6em;  
+        padding: 5px;
+    }
+}
+
+/* NAVIGATION _______________________________________________________________________________________*/
+
+.transparent {
+    background: #ebe9e9; /* Old browsers */
+    background: -moz-linear-gradient(top, #ebe9e9 0%, #ffffff 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebe9e9), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ebe9e9 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ebe9e9 0%,#ffffff 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ebe9e9 0%,#ffffff 100%); /* IE10+ */
+    background: linear-gradient(top, #ebe9e9 0%,#ffffff 100%); /* W3C */
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+.main-nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    font-size: 1em;
+    margin: 0;
+    z-index: 1;
+}
+
+
+
+li {
+    padding: 20px;
+}
+
+.btn a {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.cv {
+    border-bottom: 1px solid #367fa6;
+}
+
+.cv-wrapper {
+    padding-top: 50px;
+}
+
+
+
+.date i {
+    color: #367fa6;
+}
+
+
+.thumb-middle {
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+    height: 160px;
+    position: relative;
+    text-align: center;
+    width: 180px;
+    display: block;
+    margin: auto;
+    top: -80px;
+}
+
+
+
+.box {
+    background-color: rgb(22, 29, 29);
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid green;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 25px;
+}
+
+
+
+#intro {
+    background:#52CD9A;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+}
+
+#offer .col-md-3 {
+    margin: 30px auto;
+    padding: 40px 0px;
+    border: 1px solid gray;
+}
+
+#intro p {
+    text-align: left;
+}
+
+#intro .col-md-6{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#offer {
+    background: white;
+}
+
+#curriculum {
+    background: #4dbcf8;
+    color: #367fa6;
+    padding: 100px 10px;
+}
+
+#curriculum h3 {
+    font-size: 1.5em;
+    text-align: left;
+    padding: 20px;
+}
+
+#curriculum p {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#offer {
+    padding: 100px 10px;
+}
+
+#offer h2 {
+    color: black;
+}
+
+#kontakt div {
+    padding: 20px 60px;
+}
+
+#kontakt h3 {
+    text-align: left;
+    color: white;
+}
+
+#kontakt p, #kontakt a {
+    text-align: left;
+    color: #93959c;
+}
+
+#kontakt a:hover {
+    color: white;
+}
+
+h2 {
+    font-size: 1em;
+    color: white;
+    font-weight: normal;
+}
+
+h1, h2 {
+    text-align: center;
+}
+p {
+    color: rgb(39, 31, 31);
+    text-align: center;
+    padding: 10px 20px; 
+    margin-bottom: 0;
+}
+
+
+
+.icon {
+    text-align: center;
+
+}
+
+p strong {
+    color: #367fa6;
+    font-size: 1.2em;
+}
+
+#intro h2 {
+    color:#308165;
+    padding-bottom: 40px;
+}
+
+#intro p {
+    color: white;
+}
+
+#intro p strong {
+    color: #308165;
+    font-weight: normal;
+}
+
+.col-md-6 {
+    padding: 20px 12px;
+}
+
+.gray{
+    background: #474d5d;
+} 
